@@ -1617,6 +1617,14 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
+"@searchkit/client@^3.0.0":
+  version "3.0.0-canary.40"
+  resolved "https://registry.yarnpkg.com/@searchkit/client/-/client-3.0.0-canary.40.tgz#595ab608656319259593a81ee1ba143cdae37006"
+  integrity sha512-YQjcE5jFe3DZ/HCjnaibm9dioyuPtl0iZ6VdMKTAYZmR4yg1QQRYX+AmCMwZNGk8pjR6WomhH/xaReYH8k6suA==
+  dependencies:
+    lodash "^4.17.21"
+    qs "^6.10.1"
+
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.8.3.tgz#3802ddd21a50a949b6721ddd72da36e67e7f1b2d"
