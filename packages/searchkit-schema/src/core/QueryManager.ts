@@ -30,11 +30,27 @@ export type GeoBoundingBoxFilter = {
   }
 }
 
+export type GeoCoordinates = {
+  coordinates: [Number, Number];
+}
+
+export type GeoShapePointFilter = {
+  identifier: string
+  geoShapePoint : {
+      relation: string
+      shape: {
+        coordinates: GeoCoordinates
+        type: string
+      }
+  }
+}
+
+
 type QueryOptions = {
   fields: Array<string>
 }
 
-export type MixedFilter = ValueFilter | RangeFilter | DateRangeFilter | GeoBoundingBoxFilter
+export type MixedFilter = ValueFilter | RangeFilter | DateRangeFilter | GeoBoundingBoxFilter | GeoShapePointFilter
 
 export default class QueryManager {
   constructor(private filters: Array<MixedFilter>, private query: string, private queryOptions: QueryOptions) {}
@@ -61,6 +77,7 @@ export default class QueryManager {
   getFiltersById(id: string): Array<MixedFilter> {
     if (!this.hasFilters()) return null
     const idFilters = this.filters.filter((filter) => filter.identifier === id)
+    console.log(`${id}-idFilters`, idFilters);
     return idFilters.length > 0 ? idFilters : null
   }
 }

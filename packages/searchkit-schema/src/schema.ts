@@ -110,6 +110,7 @@ const baseSearchkitTypeDefs = gql`
     dateMin: String
     dateMax: String
     geoBoundingBox: SKGeoBoundingBoxInput
+    geoShapePoint: SKGeoShapePointInput
   }
 
   input SKGeoBoundingBoxInput {
@@ -161,6 +162,31 @@ const baseSearchkitTypeDefs = gql`
     type: String
     display: String
     entries: [SKFacetSetEntry]
+  }
+
+  type SKGeoShapePoint {
+    coordinates: [Float!]
+    type: String!
+  }
+
+  type GeoShapePointSelectedFilter implements SKSelectedFilter {
+    id: ID!
+    identifier: String!
+    label: String!
+    display: String!
+    shape: SKGeoShapePoint!
+    type: String!
+    relation: String!
+  }
+
+  input SKGeoShapeInput {
+    coordinates: [Float!]
+    type: String!
+  }
+
+  input SKGeoShapePointInput {
+    shape: SKGeoShapeInput!
+    relation: String!
   }
 `
 
