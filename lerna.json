@@ -7,7 +7,7 @@
   "command": {
     "publish": {
       "npmClient": "npm",
-      "verifyAccess": true,
+      "verifyAccess": false,
       "registry": "https://registry.npmjs.org"
     }
   }
