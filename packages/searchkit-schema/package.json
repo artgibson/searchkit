@@ -1,5 +1,5 @@
 {
-  "name": "@searchkit/schema",
+  "name": "@searchkitmod/schema",
   "version": "3.0.0",
   "main": "lib/index.js",
   "author": "Joseph McElroy <phoey1@gmail.com>",
@@ -42,5 +42,6 @@
     "nock": "^13.0.5",
     "supertest": "^6.0.1",
     "typescript": "^4.0.5"
-  }
+  },
+  "gitHead": "c9d7080da8d359452910a9ce259f0425f3d7cce6"
 }

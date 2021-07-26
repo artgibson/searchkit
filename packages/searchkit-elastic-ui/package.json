@@ -48,5 +48,6 @@
     "@apollo/client": "^3.0.0",
     "@elastic/eui": "^34.0.0",
     "react": "^17.0.0||^16.0.0"
-  }
+  },
+  "gitHead": "c9d7080da8d359452910a9ce259f0425f3d7cce6"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@searchkit/client",
+  "name": "@searchkitmod/client",
   "version": "3.0.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -49,5 +49,6 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "qs": "^6.10.1"
-  }
+  },
+  "gitHead": "c9d7080da8d359452910a9ce259f0425f3d7cce6"
 }
