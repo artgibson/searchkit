@@ -1,6 +1,6 @@
 {
   "name": "@searchkitmod/client",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
