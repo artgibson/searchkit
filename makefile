@@ -7,9 +7,9 @@ link-packages:
 	cd ./examples/next/node_modules/react-dom && yarn link
 	cd ./examples/next/node_modules/@apollo/client && yarn link
 
-	cd ./packages/searchkit-elastic-ui && yarn link @searchkit/client && yarn link @apollo/client && yarn link react && yarn link react-dom
+	cd ./packages/searchkit-elastic-ui && yarn link @searchkitmod/client && yarn link @apollo/client && yarn link react && yarn link react-dom
 	cd ./packages/searchkit-client && yarn link @apollo/client && yarn link react && yarn link react-dom
-	cd ./examples/next && yarn link @searchkit/schema && yarn link @searchkit/client && yarn link @searchkit/elastic-ui
+	cd ./examples/next && yarn link @searchkitmod/schema && yarn link @searchkitmod/client && yarn link @searchkitmod/elastic-ui
 	cd ./node_modules && yarn link react && yarn link react-dom
 
 unlink-packages:
