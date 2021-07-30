@@ -24,7 +24,7 @@
     "lint": "eslint . --ext js,ts,tsx --fix"
   },
   "devDependencies": {
-    "@apollo/client":"^3.3.19",
+    "@apollo/client": "^3.3.19",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@types/elasticsearch": "^5.0.36",
