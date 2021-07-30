@@ -1,6 +1,6 @@
 {
-  "name": "@searchkit/schema",
-  "version": "3.0.0",
+  "name": "@searchkitmod/schema",
+  "version": "3.1.0",
   "main": "lib/index.js",
   "author": "Joseph McElroy <phoey1@gmail.com>",
   "license": "Apache-2.0",
