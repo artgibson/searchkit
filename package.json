@@ -1,6 +1,6 @@
 {
-  "name": "searchkit",
-  "version": "3.0.0-canary.40",
+  "name": "searchkitmod",
+  "version": "3.0.1",
   "private": true,
   "workspaces": [
     "packages/*"
