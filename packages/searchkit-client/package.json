@@ -1,5 +1,5 @@
 {
-  "name": "@searchkitmod/client",
+  "name": "@ag3424/client",
   "version": "3.1.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

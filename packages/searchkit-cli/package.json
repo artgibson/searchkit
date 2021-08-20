@@ -1,5 +1,5 @@
 {
-  "name": "@searchkitmod/cli",
+  "name": "@ag3424/cli",
   "version": "3.1.0",
   "main": "lib/index.js",
   "author": "Joseph McElroy <phoey1@gmail.com>",

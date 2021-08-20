@@ -1,5 +1,5 @@
 {
-  "name": "@searchkitmod/elastic-ui",
+  "name": "@ag3424/elastic-ui",
   "version": "3.1.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
