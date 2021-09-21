@@ -1,16 +1,19 @@
 {
   "lerna": "3.13.0",
   "npmClient": "npm",
-  "version": "3.13.0",
+  "version": "3.2.0",
   "packages": [
     "packages/*"
   ],
   "registry": "https://registry.npmjs.org/",
   "includeMergedTags": true,
-
   "command": {
-      "publish": {
-          "ignoreChanges": ["*.md", "tests/*", "ignored-files"]
-      }
+    "publish": {
+      "ignoreChanges": [
+        "*.md",
+        "tests/*",
+        "ignored-files"
+      ]
+    }
   }
 }

@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [3.1.0](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.40...v3.1.0) (2021-07-30)
+# [3.2.0](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.40...v3.2.0) (2021-09-21)
 
 **Note:** Version bump only for package @ag3424/cli
 
@@ -11,9 +11,34 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [3.0.0](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.40...v3.0.0) (2021-07-30)
+# [3.0.0-canary.43](https://github.com/searchkit/searchkit/compare/v3.0.0-canary.27...v3.0.0-canary.43) (2021-09-14)
 
-**Note:** Version bump only for package @searchkit/cli
+
+### Features
+
+* Add highlight support for matched words ([#880](https://github.com/searchkit/searchkit/issues/880)) ([a7b971e](https://github.com/searchkit/searchkit/commit/a7b971e778bc017f9feb535cd848a7776f82778e))
+
+
+
+
+
+# [3.0.0-canary.42](https://github.com/searchkit/searchkit/compare/v3.0.0-canary.27...v3.0.0-canary.42) (2021-08-26)
+
+
+### Features
+
+* Add highlight support for matched words ([#880](https://github.com/searchkit/searchkit/issues/880)) ([a7b971e](https://github.com/searchkit/searchkit/commit/a7b971e778bc017f9feb535cd848a7776f82778e))
+
+
+
+
+
+# [3.0.0-canary.41](https://github.com/searchkit/searchkit/compare/v3.0.0-canary.27...v3.0.0-canary.41) (2021-07-24)
+
+
+### Features
+
+* Add highlight support for matched words ([#880](https://github.com/searchkit/searchkit/issues/880)) ([a7b971e](https://github.com/searchkit/searchkit/commit/a7b971e778bc017f9feb535cd848a7776f82778e))
 
 
 

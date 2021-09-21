@@ -1,3 +1,6 @@
+import { GeoShapePointFilter } from ".."
+import { SortingOption } from "../resolvers/ResultsResolver"
+
 export type ValueFilter = {
   identifier: string
   value: string
@@ -45,15 +48,33 @@ export type GeoShapePointFilter = {
   }
 }
 
+export type HierarchicalValueFilter = {
+  identifier: string
+  value: string
+  level: number
+}
 
 type QueryOptions = {
   fields: Array<string>
 }
 
-export type MixedFilter = ValueFilter | RangeFilter | DateRangeFilter | GeoBoundingBoxFilter | GeoShapePointFilter
+export type MixedFilter =
+  | ValueFilter
+  | RangeFilter
+  | DateRangeFilter
+  | GeoBoundingBoxFilter
+  | HierarchicalValueFilter
+  | GeoShapePointFilter
 
 export default class QueryManager {
-  constructor(private filters: Array<MixedFilter>, private query: string, private queryOptions: QueryOptions) {}
+
+  private sortBy: SortingOption
+
+  constructor(
+    private filters: Array<MixedFilter>,
+    private query: string,
+    private queryOptions: QueryOptions
+  ) {}
   hasFilters(): boolean {
     return this.filters && this.filters.length > 0
   }
@@ -79,5 +100,13 @@ export default class QueryManager {
     const idFilters = this.filters.filter((filter) => filter.identifier === id)
     console.log(`${id}-idFilters`, idFilters);
     return idFilters.length > 0 ? idFilters : null
+  }
+
+  setSortBy(sort: SortingOption): void {
+    this.sortBy = sort
+  }
+
+  getSortBy(): SortingOption {
+    return this.sortBy
   }
 }

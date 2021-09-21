@@ -1,8 +1,8 @@
 import SearchkitRequest from '../core/SearchkitRequest'
 import { getAggregationsFromFacets, getFacetsFromResponse } from '../core/FacetsFns'
 import QueryManager from '../core/QueryManager'
-import { SearchkitConfig } from './ResultsResolver'
 import { BaseFacet } from '../facets'
+import { SearchkitConfig } from './ResultsResolver'
 
 export default async (parent, {}, ctx) => {
   const queryManager: QueryManager = parent.searchkit.queryManager
@@ -13,7 +13,7 @@ export default async (parent, {}, ctx) => {
   try {
     const aggs = getAggregationsFromFacets(queryManager, {}, skFacets)
     const results = await skRequest.search(aggs)
-    const facets = getFacetsFromResponse(skFacets, results)
+    const facets = getFacetsFromResponse(skFacets, results, queryManager)
 
     return facets
   } catch (e) {
