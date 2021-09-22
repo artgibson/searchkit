@@ -98,7 +98,6 @@ export default class QueryManager {
   getFiltersById(id: string): Array<MixedFilter> {
     if (!this.hasFilters()) return null
     const idFilters = this.filters.filter((filter) => filter.identifier === id)
-    console.log(`${id}-idFilters`, idFilters);
     return idFilters.length > 0 ? idFilters : null
   }
 
