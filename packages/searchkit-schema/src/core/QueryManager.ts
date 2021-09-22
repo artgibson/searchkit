@@ -1,4 +1,4 @@
-import { SortingOption } from "../resolvers/ResultsResolver"
+import { SortingOption } from '../resolvers/ResultsResolver'
 
 export type ValueFilter = {
   identifier: string
@@ -33,17 +33,17 @@ export type GeoBoundingBoxFilter = {
 }
 
 export type GeoCoordinates = {
-  coordinates: [Number, Number];
+  coordinates: [number, number]
 }
 
 export type GeoShapePointFilter = {
   identifier: string
-  geoShapePoint : {
-      relation: string
-      shape: {
-        coordinates: GeoCoordinates
-        type: string
-      }
+  geoShapePoint: {
+    relation: string
+    shape: {
+      coordinates: GeoCoordinates
+      type: string
+    }
   }
 }
 
@@ -66,7 +66,6 @@ export type MixedFilter =
   | GeoShapePointFilter
 
 export default class QueryManager {
-
   private sortBy: SortingOption
 
   constructor(

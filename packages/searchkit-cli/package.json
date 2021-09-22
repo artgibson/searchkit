@@ -1,6 +1,6 @@
 {
   "name": "@ag3424/cli",
-  "version": "3.2.2",
+  "version": "3.2.4",
   "main": "lib/index.js",
   "author": "Joseph McElroy <phoey1@gmail.com>",
   "license": "Apache-2.0",
@@ -27,7 +27,7 @@
     "test": "echo no-tests"
   },
   "dependencies": {
-    "@elastic/elasticsearch": "^7.10.0",
+    "@elastic/elasticsearch": "7.13.0",
     "date-fns": "^2.16.1",
     "elasticsearch": "^16.7.2",
     "inquirer": "^8.1.2",

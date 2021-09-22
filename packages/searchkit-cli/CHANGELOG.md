@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.4](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.43...v3.2.4) (2021-09-22)
+
+**Note:** Version bump only for package @ag3424/cli
+
+
+
+
+
+## [3.2.3](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.43...v3.2.3) (2021-09-22)
+
+**Note:** Version bump only for package @ag3424/cli
+
+
+
+
+
 ## [3.2.2](https://github.com/artgibson/searchkit/compare/v3.0.0-canary.43...v3.2.2) (2021-09-22)
 
 **Note:** Version bump only for package @ag3424/cli

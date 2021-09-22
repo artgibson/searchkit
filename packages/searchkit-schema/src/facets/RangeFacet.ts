@@ -66,6 +66,7 @@ class RangeFacet implements BaseFacet {
       display: this.config.display || 'RangeSliderFacet',
       type: 'RangeFacet',
       entries: response.buckets.map((entry) => ({
+        id: `${this.getIdentifier()}_${entry.key}`,
         label: entry.key,
         count: entry.doc_count
       }))

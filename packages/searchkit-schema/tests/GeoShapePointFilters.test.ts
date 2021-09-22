@@ -129,7 +129,7 @@ describe('Geo Filters', () => {
         })
 
       const response = await runQuery(gql)
-  
+
       expect(response.status).toEqual(200)
     })
 

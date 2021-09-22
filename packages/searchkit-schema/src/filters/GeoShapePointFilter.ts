@@ -33,7 +33,7 @@ class GeoShapePointFilterClass implements BaseFilter {
         )
       }
     }
-    return newfilters;
+    return newfilters
   }
 
   getSelectedFilter(filterSet) {

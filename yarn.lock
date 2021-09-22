@@ -395,7 +395,7 @@
   dependencies:
     tslib "^1.9.3"
 
-"@elastic/elasticsearch@^7.10.0", "@elastic/elasticsearch@^7.9.1":
+"@elastic/elasticsearch@7.13.0":
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/@elastic/elasticsearch/-/elasticsearch-7.13.0.tgz#6dcf511dfa91187e22c81e54f41f4bd0fd96b4d6"
   integrity sha512-WgwLWo2p9P2tdqzBGX9fHeG8p5IOTXprXNTECQG2mJ7z9n93N5AFBJpEw4d35tWWeCWi9jI13A2wzQZH7XZ/xw==
@@ -1640,10 +1640,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@searchkit/client@^3.0.0":
-  version "3.0.0-canary.42"
-  resolved "https://registry.yarnpkg.com/@searchkit/client/-/client-3.0.0-canary.42.tgz#6cd17ebfa4d5101da284845e7292f1d0214fd8e5"
-  integrity sha512-FicY77cE8B3Ie6pXJ4yM7rxMv+vGvs6qcMtkk5UnzDKk1gRL0JXPB79km/GW+lNvdhYoOajz2jTdOYkraFaqvA==
+"@searchkit/client@npm:@ag3424/client":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@ag3424/client/-/client-3.2.2.tgz#12145b6433fe311df10fe4dea9d8fb61f764becc"
+  integrity sha512-3Wu28c6oSu/9AiFLF7ZonhqT6AJ+1S5rJEe2o+a/ufq+RBgA2AvFBmHrXuxFZ0HOTJZImK9HSC9veI5J35Y5mw==
   dependencies:
     lodash "^4.17.21"
     qs "^6.10.1"
