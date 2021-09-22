@@ -1,4 +1,3 @@
-import { GeoShapePointFilter } from ".."
 import { SortingOption } from "../resolvers/ResultsResolver"
 
 export type ValueFilter = {
